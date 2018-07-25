@@ -6,6 +6,7 @@ import './App.css';
 
 import NavBar from '../NavBar/NavBar';
 import Jumbotron from '../Components/Jumbotron/Jumbotron';
+import Card from '../Components/Card/Card';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -107,6 +108,10 @@ componentWillMount(){
                     <FontAwesomeIcon icon={['far', 'circle']} className="text-light"/>
                   </div>
                 </div>
+              </section>
+
+              <section>
+                <Card CardText={"tag": "hello", "className": "col-sm-1"}/>
               </section>
               
             </div>
